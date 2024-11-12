@@ -1,5 +1,21 @@
 ## Milvus
 
+### Docker Compose
+
+```bash
+sudo docker-compose up -d
+```
+
+- stop and delete
+
+```bash
+# Stop Milvus
+$ sudo docker-compose down
+
+# Delete service data
+$ sudo rm -rf volumes
+```
+
 ### Import
 
 ```python
